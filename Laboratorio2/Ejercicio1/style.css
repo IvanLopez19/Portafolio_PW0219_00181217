@@ -1,0 +1,41 @@
+body
+{
+    background: #FFEBAB;
+    font-family: 'Railway', sans-serif;
+    margin: Sem 15% Sem 15%;
+
+}
+
+h1,h4
+{
+    color: red;
+}
+
+h3
+{
+    border-left: red 5px solid;
+}
+
+p
+{
+    text-align: center;
+    text-indent: 5px;
+}
+
+a{
+    color: (0, 165, 102);
+    text-decoration: none;
+}
+
+ul li{
+    margin-bottom:1em;
+}
+
+img{
+    width: 500px;
+}
+
+hr{
+    border-color: gray;
+    border-style: dashed;
+}

@@ -1,0 +1,57 @@
+.btn{
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 0.3em;
+    padding: 1em;
+    opacity: 0.8;
+
+}
+
+.btn small{
+    font-size: 0.7em;
+}
+
+.btn big{
+    font-size: 1.1em;
+}
+
+.btn.black{
+    background-color: #1A237E;
+    text-decoration-color: white;
+}
+
+.btn.green{
+    background-color: #4CAF50;
+    text-decoration-color: white;
+}
+
+.btn.sky{
+    background-color: #00BCD4;
+    text-decoration-color: white;
+}
+
+.btn.purple{
+    background-color: #673AB7;
+    text-decoration-color: white;
+}
+
+.btn.border{
+    background-color: transparent;
+    border-color: #1A237E;
+    text-decoration-color: #1A237E;
+}
+
+.btn.border.green{
+    border-color: #4CAF50;
+    text-decoration-color: #4CAF50;
+}
+
+.btn.border.sky{
+    border-color: #00BCD4;
+    text-decoration-color:#00BCD4;
+}
+
+.btn.border.green{
+    border-color: #673AB7;
+    text-decoration-color: #673AB7;
+}
