@@ -1,0 +1,28 @@
+@mixin set-dimensions($width, $height) {
+    width: $width;
+    height: $height;
+    
+}
+
+$color-primary: #673AB7;
+$color-secondary: #3F51B5;
+$color-tertiary: #D81B60;
+$color-black: black;
+$color-white: white;
+
+body{
+    box-sizing: border-box;
+    height: 100vh;
+
+    overflow: hidden;
+    background-image: url("https://cdn.wallpapersafari.com/83/31/DBzikL.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    padding: 1em 5%;
+    margin: 0%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
